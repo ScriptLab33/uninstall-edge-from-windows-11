@@ -1,4 +1,5 @@
-# uninstalledge
+# uninstall edge from windows 11
+By default, apps and programs doesn't let you uninstall edge, the "uninstall" option is greyed out.  Changing this registry key lets you uninstall edge.
 
 ```
 get-ItemProperty -Path 'HKLM:\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge' -Name 'NoRemove'
